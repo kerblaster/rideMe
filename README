@@ -1,0 +1,47 @@
+#Ride Me: Where Rutgers can ride!
+Technologies used: HTML, Javscript, JSP, MySQL
+
+##Functionality
+*Login, Logout.
+
+###Administrator
+*Administrator can create System Support staff 
+*Administrators can run queries for statistics 
+
+###System support staff can
+*reset password of end-users; 
+*lock out an end-user (who has misbehaved); 
+*add new ads to be displayed
+*keep track of the number of times each ad was shown 
+*when requested, display these values in a report (to collect money from the advertisers) 
+
+###End-users & rides
+create account, with
+*login id, password, RU email (plus optional name, address, phone#, text message email,... )
+*information allowing one to identify zero or more cars and # of passengers it can carry
+driver makes ride offer with
+*a single departure and destination location, time windows, and what car will be coming
+*or a regularly scheduled recurring offer
+passenger makes ride request with
+*a single departure and destination location, and time windows; 
+*or a regularly scheduled recurring requests
+*A driver can see all the ride requests that match
+*A driver chooses which ride offers s/he will accept/reject and notify the passengers
+*Internal messaging between drivers and passengers after accepting/rejecting rides
+*After the end of the ride, participants can rate each other 
+*Ratings are visible during the preceding step. This can include comments. 
+*Comments can also be sent to a common systems board.
+*Once a user knows the id of another user, s/he can send a message to him/her.
+*User can set up forwarding of messages as SENT_EMAIL.
+
+###Rewards
+*The system should keep track of how many completed rides they have offered. 
+*"Leader board" may be kept and shown
+*Each driver of a completed ride will be allocated a proportional fraction of the advertising income, which will be distributed at the end of the term.
+
+###Statistics
+The administrator should be able to see
+*total rides made by day/week/month/semester/year/time of day
+*total rides by user
+*total rides by origin or destination
+*A user should be able to see how many rides they have given/taken per month and semester 
